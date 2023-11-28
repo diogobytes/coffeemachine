@@ -1,3 +1,4 @@
+import art
 MENU = {
     "espresso": {
         "ingredients": {
@@ -29,7 +30,7 @@ resources = {
     "coffee": 100,
 }
 
-
+print(art.logo)
 def insert_coins():
     print("Please insert coins. ")
     quarters = input("how many quarters: ")
